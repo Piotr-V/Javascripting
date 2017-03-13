@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        var question = prompt("Hey mon ami ! Tu aimes ça les grosses patates ?", []);
+
+        if (question === "oui") {
+            //créer le paragraphe
+            var patate = ["#", "##", "###", "####", "#####", "######", "#######"];
+            for (i = 0; i < patate.length; i++) {
+                console.log(patate[i]);
+            }
+        }
+
+        else if (question === "non") {
+            alert("Tu as tort copain ! Que Les patates que c'est bon pour l'avoir ... la patate... avoir la patate... que c'est bon pour avoir la patate, les patates hahah ");
+        }
+
+        else {
+            alert("je vous sens comme tiraillé");
+        }
+
+    </script>
+
+</body>
+
+</html>
